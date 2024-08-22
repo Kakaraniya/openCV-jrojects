@@ -36,5 +36,7 @@ Note that numpy automatically gets installed in your computer. Now below I've me
 
 **project 7:** It detects a particular object in your image.
 
+**project 8:** It detects face and eyes present inside the frame of your webcam.
+
 ## Contributing
 If you have any ideas for improvements or find any issues, feel free to contribute by submitting a pull request. I would really appreciate that. 
