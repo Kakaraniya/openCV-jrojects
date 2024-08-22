@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('assets/my_pic.jpg',1) #imread stands for image read. here 1 stands for it the image has some kind of transparency, it'll be displayed. 1 means coloured img without transparence and 0 means grey scale img. 
+img = cv2.imread('assets/my_pic.jpeg',1) #imread stands for image read. here 1 stands for it the image has some kind of transparency, it'll be displayed. 1 means coloured img without transparence and 0 means grey scale img. 
 
 """
 cv2 by default loads an image in BLUE GREEN RED (BGR) pattern

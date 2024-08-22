@@ -9,12 +9,12 @@ while True:
 	width = int(cap.get(3))#here 3 and 4 are properties for width and height. 
 	height = int(cap.get(4))
 
-	img = cv2.line(frame, (0,0), (width,height), (255,0,0), 10)
-	img = cv2.line(frame, (width,0), (0,height), (0,255,0), 5)
+	img = cv2.line(frame, (0,100), (width,100), (255,0,0), 10)
+	img = cv2.line(frame, (0,120), (width,120), (0,255,0), 5)
 	img = cv2.rectangle(frame, (100,100), (200,200), (128,128,128), -1)
 	img = cv2.circle(frame, (300,300),60, (0,0,255), 5)
 	font = cv2.FONT_HERSHEY_SIMPLEX
-	img = cv2.putText(img, 'I am great!', (200,height-30), font, 4, (0,0,0), 5, cv2.LINE_AA)
+	img = cv2.putText(img, 'You look great!', (200,100), font, 4, (0,0,0), 5, cv2.LINE_AA)
 
 
 	cv2.imshow('frame', img)
