@@ -1,1 +1,1 @@
-# openCV-jrojects
+# openCV-projects
